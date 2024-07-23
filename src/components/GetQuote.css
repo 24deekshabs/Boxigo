@@ -1,0 +1,13 @@
+/* GetQuote.css */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 220px; /* Adjust according to the sidebar width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  

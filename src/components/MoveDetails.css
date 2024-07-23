@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    flex-direction: column;
+    background: none;
+    min-height: 100vh; /* Ensure container takes full height of the viewport */
+    padding-top: 2px; /* Add some padding at the top */
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px; /* Adjust max-width to control the width of the content */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding does not affect total width */
+    align-items: center; /* Center align the content inside */
+}
+
+/* MoveDetails.css */
+.move-details {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.move-info {
+    margin-bottom: 10px;
+}
+
+.move-property {
+    display: flex;
+    gap: 20px;
+}
+
+.disclaimer {
+    margin-top: 10px;
+    color: red;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.expanded-details {
+    margin-top: 20px;
+}
+
+.inventory {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.room-details {
+    margin-left: 20px;
+}
+
+.inventory-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-details, .btn-quotes {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-details:hover, .btn-quotes:hover {
+    background-color: #ff4a3b;
+}
+
+.house-details {
+    margin-top: 20px;
+}
+
+.house-details > div {
+    margin-bottom: 10px;
+}
+
+.inventory-details {
+    margin: 20px 0;
+}
+
+.inventory-details h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inventory-details button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+details {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+details[open] {
+    background-color: #e0e0e0;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff6b6b;
+}
+
+details summary::marker {
+    color: #ff6b6b;
+}
